@@ -1,0 +1,158 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+         rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        </head>
+        <style>
+            .hero{
+                height:100vh;
+                background: url('img4.jpg')no-repeat center center;
+                background-size:cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .hero h1{
+                color:aliceblue;
+                font-size: 4rem;
+            }
+            .hero{
+                background-image: url(img4.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                color:rgb(88, 59, 192)
+            }
+            @media(max-width:992px){
+                .hero h1{
+                    font-size:2.5rem;    
+                }
+                .hero p{
+                    font-size:1.25rem;
+                }
+                .navbar-brand{
+                    font-size:1.5rem;
+                }
+                .btn-lg{
+                    padding:0.75rem 1.5rem;
+                    font-size:1.25rem;
+                }
+            }
+        </style>
+    <body>
+        <nav class="navbar navbar expand-lg nav-dark bg info">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">wedsite</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-traget="#navbarNav" aria-controls="navbarNav" aria-expanded>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                   <a class="nav-link" href="#services">service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav link active" href="#appointment">contact</a>
+                </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="hero">
+            <div class="text-center">
+                <h1>welcome</h1>
+                <p class="lead text-While"> this world is amazing</p>
+                <a herf="#services"class="btn btn-primary btn-lg">learn more</a>
+             </div> 
+        </section>
+        <section id="service" class="py-5">
+            <div class="container">
+                <div class="row text-center">
+                    <p class="lead">Life is beautiful, but not always. It has lots of problems you have to face everyday. Don't worry though! All these problems make you strong, it gives you courage to stand alone in future. Life is full of moments of joy, pleasure, success and comfort punctuated by misery, defeat, failures and problems. There is no human being on Earth, strong, powerful, wise or rich, who has not experienced, struggle, suffering or failure. You have to work hard to reach to the highest position. Life is full of paths, you just have to choose the right one. Life is interesting and amazing like the stars up in the skies.
+                    </p>
+                    <h1>memories</h1>
+                </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                     <div class="card">
+                          <img src="img1.jpg" class="card-img-top " alt=" service 1">
+                          <div class="card-body">
+                             <h5 class="card-title">schooling</h5>
+                             <p class="card-text">Time doesn't take away from friendship, nor does separation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                             <img src="img5.jpg" class="card-img-top " alt=" service 1">
+                             <div class="card-body">
+                                <h5 class="card-title">college</h5>
+                                <p class="card-text">Friendship is the hardest thing in the world to explain. It's not something you learn in school. But if you haven't learned the meaning of friendship, you really haven't learned anything</p>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-md-4">
+                        <div class="card">
+                             <img src="img3.jpg" class="card-img-top " alt=" service 1">
+                             <div class="card-body">
+                                <h5 class="card-title">work time</h5>
+                                <p class="card-text">A real friend is one who walks in when the rest of the world walks out</p>
+                               </div>
+                           </div>
+                       </div>
+                </div>    
+            </div>
+        </section>
+        <section id="friendship" class="py-5 bg-light">
+            <div class="container">
+                <div class="row text-center">
+                    <h2>BOOK A TRIP</h2>
+                    <p class="lead">Fill out the form below to book a trip with your friendship    
+                    </p>
+                </div>
+                <form id="tripform" class="needs-validation"novalidate>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="enter your name"required>
+                        <div class="invallid-feedback">pleace enter the name</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="name" placeholder="enter your Email"required>
+                        <div class="invallid-feedback">pleace enter your Email</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">start date</label>
+                        <input type="text" class="form-control" id="name" placeholder="enter the starting date"required>
+                        <div class="invallid-feedback">pleace enter the starting date</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">End date</label>
+                        <input type="text" class="form-control" id="name" placeholder="enter the ending date"required>
+                        <div class="invallid-feedback">pleace enter the ending date</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">location</label>
+                        <input type="text" class="form-control" id="name" placeholder="enter your destination"required>
+                        <div class="invallid-feedback">pleace enter your destination</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">no of people</label>
+                        <input type="text" class="form-control" id="name" placeholder="no of members"required>
+                        <div class="invallid-feedback">Total no of people</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+            </div>
+
+        </section>
+       <footer class="bg-info text-white text-center py-3">
+        <p>@ 2024 YOLO . All Right Reserved.</p>
+       </footer>
+    </body>
+    </html>
